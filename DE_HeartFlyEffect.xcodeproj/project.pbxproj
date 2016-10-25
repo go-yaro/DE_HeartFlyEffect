@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168D2EA71DBF08C700129143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D2EA61DBF08C700129143 /* AppDelegate.swift */; };
+		168D2EA91DBF08C700129143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D2EA81DBF08C700129143 /* ViewController.swift */; };
+		168D2EAC1DBF08C700129143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168D2EAA1DBF08C700129143 /* Main.storyboard */; };
+		168D2EAE1DBF08C700129143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168D2EAD1DBF08C700129143 /* Assets.xcassets */; };
+		168D2EB11DBF08C700129143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168D2EAF1DBF08C700129143 /* LaunchScreen.storyboard */; };
+		168D2EBC1DBF08C700129143 /* DE_HeartFlyEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D2EBB1DBF08C700129143 /* DE_HeartFlyEffectTests.swift */; };
+		168D2EC71DBF08C700129143 /* DE_HeartFlyEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D2EC61DBF08C700129143 /* DE_HeartFlyEffectUITests.swift */; };
+		168D2ED51DBF08E900129143 /* HeartFlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D2ED41DBF08E900129143 /* HeartFlyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168D2EB81DBF08C700129143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168D2E9B1DBF08C700129143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168D2EA21DBF08C700129143;
+			remoteInfo = DE_HeartFlyEffect;
+		};
+		168D2EC31DBF08C700129143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168D2E9B1DBF08C700129143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168D2EA21DBF08C700129143;
+			remoteInfo = DE_HeartFlyEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168D2EA31DBF08C700129143 /* DE_HeartFlyEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DE_HeartFlyEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168D2EA61DBF08C700129143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168D2EA81DBF08C700129143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		168D2EAB1DBF08C700129143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168D2EAD1DBF08C700129143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168D2EB01DBF08C700129143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168D2EB21DBF08C700129143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168D2EB71DBF08C700129143 /* DE_HeartFlyEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DE_HeartFlyEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168D2EBB1DBF08C700129143 /* DE_HeartFlyEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DE_HeartFlyEffectTests.swift; sourceTree = "<group>"; };
+		168D2EBD1DBF08C700129143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168D2EC21DBF08C700129143 /* DE_HeartFlyEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DE_HeartFlyEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168D2EC61DBF08C700129143 /* DE_HeartFlyEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DE_HeartFlyEffectUITests.swift; sourceTree = "<group>"; };
+		168D2EC81DBF08C700129143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168D2ED41DBF08E900129143 /* HeartFlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartFlyView.swift; sourceTree = "<group>"; };
+		168D2ED61DBF25AE00129143 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168D2EA01DBF08C700129143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168D2EB41DBF08C700129143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168D2EBF1DBF08C700129143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168D2E9A1DBF08C700129143 = {
+			isa = PBXGroup;
+			children = (
+				168D2EA51DBF08C700129143 /* DE_HeartFlyEffect */,
+				168D2EBA1DBF08C700129143 /* DE_HeartFlyEffectTests */,
+				168D2EC51DBF08C700129143 /* DE_HeartFlyEffectUITests */,
+				168D2EA41DBF08C700129143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168D2EA41DBF08C700129143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168D2EA31DBF08C700129143 /* DE_HeartFlyEffect.app */,
+				168D2EB71DBF08C700129143 /* DE_HeartFlyEffectTests.xctest */,
+				168D2EC21DBF08C700129143 /* DE_HeartFlyEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168D2EA51DBF08C700129143 /* DE_HeartFlyEffect */ = {
+			isa = PBXGroup;
+			children = (
+				168D2EA61DBF08C700129143 /* AppDelegate.swift */,
+				168D2EA81DBF08C700129143 /* ViewController.swift */,
+				168D2EAA1DBF08C700129143 /* Main.storyboard */,
+				168D2EAD1DBF08C700129143 /* Assets.xcassets */,
+				168D2EAF1DBF08C700129143 /* LaunchScreen.storyboard */,
+				168D2EB21DBF08C700129143 /* Info.plist */,
+				168D2ED41DBF08E900129143 /* HeartFlyView.swift */,
+				168D2ED61DBF25AE00129143 /* MyPlayground.playground */,
+			);
+			path = DE_HeartFlyEffect;
+			sourceTree = "<group>";
+		};
+		168D2EBA1DBF08C700129143 /* DE_HeartFlyEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				168D2EBB1DBF08C700129143 /* DE_HeartFlyEffectTests.swift */,
+				168D2EBD1DBF08C700129143 /* Info.plist */,
+			);
+			path = DE_HeartFlyEffectTests;
+			sourceTree = "<group>";
+		};
+		168D2EC51DBF08C700129143 /* DE_HeartFlyEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168D2EC61DBF08C700129143 /* DE_HeartFlyEffectUITests.swift */,
+				168D2EC81DBF08C700129143 /* Info.plist */,
+			);
+			path = DE_HeartFlyEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168D2EA21DBF08C700129143 /* DE_HeartFlyEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168D2ECB1DBF08C700129143 /* Build configuration list for PBXNativeTarget "DE_HeartFlyEffect" */;
+			buildPhases = (
+				168D2E9F1DBF08C700129143 /* Sources */,
+				168D2EA01DBF08C700129143 /* Frameworks */,
+				168D2EA11DBF08C700129143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DE_HeartFlyEffect;
+			productName = DE_HeartFlyEffect;
+			productReference = 168D2EA31DBF08C700129143 /* DE_HeartFlyEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168D2EB61DBF08C700129143 /* DE_HeartFlyEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168D2ECE1DBF08C700129143 /* Build configuration list for PBXNativeTarget "DE_HeartFlyEffectTests" */;
+			buildPhases = (
+				168D2EB31DBF08C700129143 /* Sources */,
+				168D2EB41DBF08C700129143 /* Frameworks */,
+				168D2EB51DBF08C700129143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168D2EB91DBF08C700129143 /* PBXTargetDependency */,
+			);
+			name = DE_HeartFlyEffectTests;
+			productName = DE_HeartFlyEffectTests;
+			productReference = 168D2EB71DBF08C700129143 /* DE_HeartFlyEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168D2EC11DBF08C700129143 /* DE_HeartFlyEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168D2ED11DBF08C700129143 /* Build configuration list for PBXNativeTarget "DE_HeartFlyEffectUITests" */;
+			buildPhases = (
+				168D2EBE1DBF08C700129143 /* Sources */,
+				168D2EBF1DBF08C700129143 /* Frameworks */,
+				168D2EC01DBF08C700129143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168D2EC41DBF08C700129143 /* PBXTargetDependency */,
+			);
+			name = DE_HeartFlyEffectUITests;
+			productName = DE_HeartFlyEffectUITests;
+			productReference = 168D2EC21DBF08C700129143 /* DE_HeartFlyEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168D2E9B1DBF08C700129143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = DDDrop;
+				TargetAttributes = {
+					168D2EA21DBF08C700129143 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6T6RVC929A;
+						ProvisioningStyle = Automatic;
+					};
+					168D2EB61DBF08C700129143 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6T6RVC929A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168D2EA21DBF08C700129143;
+					};
+					168D2EC11DBF08C700129143 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6T6RVC929A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168D2EA21DBF08C700129143;
+					};
+				};
+			};
+			buildConfigurationList = 168D2E9E1DBF08C700129143 /* Build configuration list for PBXProject "DE_HeartFlyEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168D2E9A1DBF08C700129143;
+			productRefGroup = 168D2EA41DBF08C700129143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168D2EA21DBF08C700129143 /* DE_HeartFlyEffect */,
+				168D2EB61DBF08C700129143 /* DE_HeartFlyEffectTests */,
+				168D2EC11DBF08C700129143 /* DE_HeartFlyEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168D2EA11DBF08C700129143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168D2EB11DBF08C700129143 /* LaunchScreen.storyboard in Resources */,
+				168D2EAE1DBF08C700129143 /* Assets.xcassets in Resources */,
+				168D2EAC1DBF08C700129143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168D2EB51DBF08C700129143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168D2EC01DBF08C700129143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168D2E9F1DBF08C700129143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168D2ED51DBF08E900129143 /* HeartFlyView.swift in Sources */,
+				168D2EA91DBF08C700129143 /* ViewController.swift in Sources */,
+				168D2EA71DBF08C700129143 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168D2EB31DBF08C700129143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168D2EBC1DBF08C700129143 /* DE_HeartFlyEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168D2EBE1DBF08C700129143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168D2EC71DBF08C700129143 /* DE_HeartFlyEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168D2EB91DBF08C700129143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168D2EA21DBF08C700129143 /* DE_HeartFlyEffect */;
+			targetProxy = 168D2EB81DBF08C700129143 /* PBXContainerItemProxy */;
+		};
+		168D2EC41DBF08C700129143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168D2EA21DBF08C700129143 /* DE_HeartFlyEffect */;
+			targetProxy = 168D2EC31DBF08C700129143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168D2EAA1DBF08C700129143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168D2EAB1DBF08C700129143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168D2EAF1DBF08C700129143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168D2EB01DBF08C700129143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168D2EC91DBF08C700129143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168D2ECA1DBF08C700129143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168D2ECC1DBF08C700129143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6T6RVC929A;
+				INFOPLIST_FILE = DE_HeartFlyEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byaji.DE-HeartFlyEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		168D2ECD1DBF08C700129143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6T6RVC929A;
+				INFOPLIST_FILE = DE_HeartFlyEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byaji.DE-HeartFlyEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		168D2ECF1DBF08C700129143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6T6RVC929A;
+				INFOPLIST_FILE = DE_HeartFlyEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byaji.DE-HeartFlyEffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DE_HeartFlyEffect.app/DE_HeartFlyEffect";
+			};
+			name = Debug;
+		};
+		168D2ED01DBF08C700129143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6T6RVC929A;
+				INFOPLIST_FILE = DE_HeartFlyEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byaji.DE-HeartFlyEffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DE_HeartFlyEffect.app/DE_HeartFlyEffect";
+			};
+			name = Release;
+		};
+		168D2ED21DBF08C700129143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6T6RVC929A;
+				INFOPLIST_FILE = DE_HeartFlyEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byaji.DE-HeartFlyEffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DE_HeartFlyEffect;
+			};
+			name = Debug;
+		};
+		168D2ED31DBF08C700129143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6T6RVC929A;
+				INFOPLIST_FILE = DE_HeartFlyEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byaji.DE-HeartFlyEffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DE_HeartFlyEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168D2E9E1DBF08C700129143 /* Build configuration list for PBXProject "DE_HeartFlyEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168D2EC91DBF08C700129143 /* Debug */,
+				168D2ECA1DBF08C700129143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168D2ECB1DBF08C700129143 /* Build configuration list for PBXNativeTarget "DE_HeartFlyEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168D2ECC1DBF08C700129143 /* Debug */,
+				168D2ECD1DBF08C700129143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		168D2ECE1DBF08C700129143 /* Build configuration list for PBXNativeTarget "DE_HeartFlyEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168D2ECF1DBF08C700129143 /* Debug */,
+				168D2ED01DBF08C700129143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		168D2ED11DBF08C700129143 /* Build configuration list for PBXNativeTarget "DE_HeartFlyEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168D2ED21DBF08C700129143 /* Debug */,
+				168D2ED31DBF08C700129143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168D2E9B1DBF08C700129143 /* Project object */;
+}
